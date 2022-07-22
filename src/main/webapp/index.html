@@ -46,6 +46,14 @@
         }
     </script>
 
+    <script>
+    if(!gapi.auth2){
+        gapi.load('auth2', function() {
+            gapi.auth2.init();
+        });
+     }
+     </script>
+
     
 </body>
 </html>
